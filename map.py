@@ -15,3 +15,8 @@ Output:
 angka = [4, 2, 1, 3, 5]
 
 # lanjutkan code dibawah ini
+
+urutan_angka = sorted(angka)
+print(urutan_angka)
+
+# done

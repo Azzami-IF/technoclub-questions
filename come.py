@@ -33,9 +33,15 @@ for i in range(jumlah_penumpang):
     umur = int(input("Umur: "))
     asal_planet = input("Asal planet: ")
     
+    penumpang.append({
+        'nama': nama,
+        'umur': umur,
+        'asal planet': asal_planet
+    })
     print()
     
     # lanjutkan code dibawah ini
     
 print(penumpang)
 
+# done

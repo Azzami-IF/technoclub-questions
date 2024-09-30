@@ -15,4 +15,7 @@ Output:
 arr = range(1, 100)
 # lanjutkan code dibawah ini
 
+hasil = [angka for angka in arr if angka % 2 != 0]
+print(hasil)
 
+# done

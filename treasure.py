@@ -13,3 +13,21 @@ Kata yang paling sering muncul adalah "harta"
 """
 arr = ["harta", "karun", "petualangan", "harta", "kunci", "harta", "petualangan", "harta"]
 # lanjutkan code dibawah ini
+
+max = 0
+kata = ""
+
+for i in arr:
+    count = 0
+   
+    for a in arr:
+        if i == a:
+            count += 1
+
+    if count > max:
+        max = count
+        kata = i
+    
+print(f'Kata yang paling sering muncul adalah "{kata}"')
+
+# done

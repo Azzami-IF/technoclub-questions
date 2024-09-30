@@ -12,3 +12,8 @@ while (True):
     
     i += 1
     # lanjutkan code dibawah ini
+
+    if (i == 100):
+        break
+
+# done
