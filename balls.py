@@ -17,6 +17,6 @@ buah = [10, 20, 30, 40, 50, 60, 70]
 # lanjutkan code dibawah ini
 
 total_buah = sum(buah)
-print(total_buah)
+print(f'Total buah yang dikumpulkan selama seminggu adalah "{total_buah}"')
 
 # done
